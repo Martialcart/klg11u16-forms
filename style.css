@@ -1,0 +1,13 @@
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputSize {
+    max-width: 200px;
+}
+
+.buttonSize {
+    width: 120px;
+}

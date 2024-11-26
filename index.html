@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <title></title>
+</head>
+<body>
+   <header></header>
+   <main>
+       <section>
+	  <h1>Forms </h1> 
+	  <ul>
+	      name er relatert til label
+		placeholder angir fyll
+		kodeblindhet
+	  </ul>
+       </section>
+
+       <section><h2>Oppgave 1</h2>
+	   <form>
+	       <label class="flexCol" for="firstname">
+		   Skriv ditt fornavn
+	       <input class="inputSize" id="firstname" type="text" name="firstname" placeholder="Eks. Ola">
+	       </label>
+
+	       <label class="flexCol" for="surname">
+		   Skriv ditt etternavn
+	       <input class="inputSize" id="surname" type="text" name="surname" placeholder="Eks. Nordmann">
+	       </label>
+
+	       <label class="flexCol" for="age">
+		   Skriv inn alder
+	       <input class="inputSize" id="age" type="number" name="" placeholder="eks. 47">
+	       </label>
+
+	       <label class="flexCol" for="termsAndCondition">
+		   Har du lest bruker rettningslinjene?
+	       <input class="inputSize" id="termsAndCondition" type="checkbox" name="termsAndCondition">
+	       </label>
+
+	       <label for="submitbutton">
+		   <button id="submitButton" class="buttonSize">Send Inn skjema</button>
+		</label>
+	    </form>
+       </section>
+   </main>
+   <footer></footer>
+</body>
+</html>
